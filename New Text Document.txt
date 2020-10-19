@@ -1,0 +1,140 @@
+.red
+{
+width: 1280px;
+height: 245px;
+position: absolute;
+cursor:pointer;
+overflow: hidden;
+}
+img
+{
+width: 1280px;
+height: 243px;
+transition: all 1s ease-in;
+}
+span
+{
+position: absolute;
+color:#fff;
+left:30px;
+bottom:100px;
+right:0px;
+margin:2px;
+font-family: sans-serif;
+padding:3px 0px;
+font-size:50px;
+transform: translate(50px);
+opacity: 1;
+transition: all 1s ease-in;
+font-weight: 300px;
+
+}
+.red:hover img
+{
+transform: scale(1.4);
+transition: all 1s ease-in;
+filter: brightness(.5);
+}
+
+
+
+
+.alpha
+{
+width: 320px;
+height: 240px
+position: relative;
+cursor: pointer;
+}
+.alpha:hover .alpha-m
+{
+width:320px;
+}
+
+.alpha img
+{
+margin-top:10px;
+display: block;
+width: 320px;
+height: 240px;
+border: 4px ridge black;
+border-radius:10px;
+}
+.alpha-m
+{
+width:0px;
+height: 240px;
+background: #E89E00;
+opacity: .5;
+position:absolute;
+top: 340px;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+transition: 0.7s ease;
+border-radius:10px;
+}
+.alpha-m p1
+{
+color: black;
+font-size: 50px;
+border:  6px solid black;
+padding:10px 30px;
+}
+.beta
+{
+width: 320px;
+height: 240px
+position: relative;
+cursor: pointer;
+}
+.beta:hover .beta-n
+{
+width:320px;
+}
+
+.beta img
+{
+margin-top:10px;
+display: block;
+width: 320px;
+height: 240px;
+border: 4px ridge black;
+border-radius:10px;
+}
+.beta-n
+{
+width:0px;
+height: 240px;
+background: #E89E00;
+opacity: .5;
+position:absolute;
+top: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+transition: 0.7s ease;
+border-radius:10px;
+}
+.beta-n p2
+{
+color: black;
+font-size: 50px;
+border:  6px solid black;
+padding:10px 30px;
+}
+
+
+
+<div class="alpha">
+<img src="1.jpg">
+<div class="alpha-m">
+<p1>OFFER<br><del>Rs.5999</del><br>just Rs.3999</p1>
+</div>
+<div class="beta">
+<img src="hall.jpg">
+<div class="beta-n">
+<p1>OFFER<br><del>Rs.5999</del><br>just Rs.3999</p1>
+</div>
